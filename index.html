@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container v1">
+		<div>
+			<h2>Как пишется слово "успех" на инглише?</h2>
+		</div>
+		<div>
+			<p class="border answer1 my-0 py-3 px-3">ycnex</p>
+		</div>
+		<div>
+			<p class="border answer2 my-0 py-3 px-3">Gaben</p>
+		</div>
+		<div>
+			<p class="border answer3 my-0 py-3 px-3">First place in @forbes@</p>
+		</div>	
+	</div>
+	<div class="container v2" style="display: none;">
+		<h2>2+2?</h2>
+		<div>
+			<p class="border answer4 my-0 py-3 px-3">0.4*10</p>
+		</div>
+		<div>
+			<p class="border answer5 my-0 py-3 px-3">40/10</p>
+		</div>
+		<div>
+			<p class="border answer6 my-0 py-3 px-3">20/5</p>
+		</div>	
+	</div>
+	<div class="container v3 text-center" style="display: none;">
+		<h2 class="answer100">ЛАДНО ЕТА БЫЛА РАЗМИНКА ЩА БУИТ МЯСО</h2>
+	</div>
+	<div class="container v4" style="display: none;">
+		<h2>Где восходит Солнце?</h2>
+		<div>
+			<p class="border answer7 my-0 py-3 px-3">Юг</p>
+		</div>
+		<div>
+			<p class="border answer8 my-0 py-3 px-3">Восток</p>
+		</div>
+		<div>
+			<p class="border answer9 my-0 py-3 px-3">Север</p>
+		</div>	
+	</div>
+		<div class="container v5" style="display: none;">
+		<h2>Где его впервые показали?</h2>
+		<img src="grind.jpg">
+		<div>
+			<p class="border answer10 my-0 py-3 px-3">В ГАРРИ ПОТТЕРЕ КОНЕЧНО ЖЕ</p>
+		</div>
+		<div>
+			<p class="border answer11 my-0 py-3 px-3">ТОЧНО НЕ В ФАНТАСТИЧЕСКИХ ТВАРЯХ</p>
+		</div>
+		<div>
+			<p class="border answer12 my-0 py-3 px-3">ЗУБ ДАЮ ВО ВЛАСТЕЛИНЕ КОЛЕЦ</p>
+		</div>	
+	</div>
+	<div class="container v6" style="display: none;">
+		<h2>Кто играл этого Джокера?</h2>
+		<img src="jared.gif">
+		<div>
+			<p class="border answer13 my-0 py-3 px-3">Хит Леджер</p>
+		</div>
+		<div>
+			<p class="border answer14 my-0 py-3 px-3">Джарет Лето</p>
+		</div>
+		<div>
+			<p class="border answer15 my-0 py-3 px-3">Маколей Калкин</p>
+		</div>	
+	</div>
+	<div class="container v7" style="display: none;">
+		<h2>Откуда трек?</h2>
+		<audio controls>
+    		<source src="song.mp3" type="audio/ogg; codecs=vorbis">
+   			<source src="song.mp3" type="audio/mpeg">
+    		Ваш браузер не поддерживает тег audio.
+		</audio>
+		<div>
+			<p class="border answer16 my-0 py-3 px-3">Человек паук</p>
+		</div>
+		<div>
+			<p class="border answer17 my-0 py-3 px-3">Бетмэн</p>
+		</div>
+		<div>
+			<p class="border answer18 my-0 py-3 px-3">Наруто</p>
+		</div>	
+	</div>
+	<div class="container v8" style="display: none;">
+		<h2>Сколько мне лет?</h2>
+		<img src="16.jpg">
+		<div>
+			<p class="border answer19 my-0 py-3 px-3">14</p>
+		</div>
+		<div>
+			<p class="border answer20 my-0 py-3 px-3">17</p>
+		</div>
+		<div>
+			<p class="border answer21 my-0 py-3 px-3">16</p>
+		</div>	
+	</div>
+	<div class="container v9 mx-auto my-auto" style="display: none;">
+		<h2>ТЫ ВЫДЕРЖАЛ ВСЕ ЭТО ТЫ ГЕНИУС</h2>
+		<img src="celb.jpg">
+		<div>
+			<button class="btn answer22 my-0 py-3 px-3">Начать заново</button>
+		</div>	
+	</div>
+
+	<script type="text/javascript">
+
+		//1
+		document.querySelector(".answer1").onclick = function(){
+			alert("ар йу фром нигерленд???")
+			document.querySelector(".v2").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+		document.querySelector(".answer2").onclick = function(){
+			alert("лондон из де кэпитал оф грит британ")
+			document.querySelector(".v2").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+		document.querySelector(".answer3").onclick = function(){
+			alert("ты инглишмен")
+			document.querySelector(".v2").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+
+		//2
+		document.querySelector(".answer4").onclick = function(){
+			alert("да ты мой учитель по матеше")
+			document.querySelector(".v3").style.display = "block"
+			document.querySelector(".v2").style.display = "none"
+		};
+		document.querySelector(".answer5").onclick = function(){
+			alert("тупо математика")
+			document.querySelector(".v3").style.display = "block"
+			document.querySelector(".v2").style.display = "none"
+		};
+		document.querySelector(".answer6").onclick = function(){
+			alert("ты калькулятор")
+			document.querySelector(".v3").style.display = "block"
+			document.querySelector(".v2").style.display = "none"
+		};
+
+		//100
+		document.querySelector(".answer100").onclick = function(){
+			alert("НАЖМИ НА КНОПКУ")
+			document.querySelector(".v4").style.display = "block"
+			document.querySelector(".v3").style.display = "none"
+		};
+
+		//3
+		document.querySelector(".answer7").onclick = function(){
+			alert("БАН ПО ПРИЧИНЕ НЕ ГЕОГРАФ")
+			document.querySelector(".v4").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+		document.querySelector(".answer8").onclick = function(){
+			alert("Молодец")
+			document.querySelector(".v5").style.display = "block"
+			document.querySelector(".v4").style.display = "none"
+		};
+		document.querySelector(".answer9").onclick = function(){
+			alert("САДИСЬ2")
+			document.querySelector(".v4").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+
+		//4
+		document.querySelector(".answer10").onclick = function(){
+			alert("ХАРОШ")
+			document.querySelector(".v5").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+		document.querySelector(".answer11").onclick = function(){
+			alert("Не знаю почему ответы только посередине")
+			document.querySelector(".v6").style.display = "block"
+			document.querySelector(".v5").style.display = "none"
+		};
+		document.querySelector(".answer12").onclick = function(){
+			alert("НЕЕННЕНЕНЕНЕНЕНЕНЕНЕНЕ")
+			document.querySelector(".v5").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+
+		//5
+		document.querySelector(".answer13").onclick = function(){
+			alert("Ты ваще умный окац")
+			document.querySelector(".v6").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+		document.querySelector(".answer14").onclick = function(){
+			alert("шАААРЕШ МОЛОДЕЦ")
+			document.querySelector(".v7").style.display = "block"
+			document.querySelector(".v6").style.display = "none"
+		};
+		document.querySelector(".answer15").onclick = function(){
+			alert("Совсем один дома?")
+			document.querySelector(".v6").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+
+		//6
+		document.querySelector(".answer16").onclick = function(){
+			alert("ты меломан?")
+			document.querySelector(".v8").style.display = "block"
+			document.querySelector(".v7").style.display = "none"
+		};
+		document.querySelector(".answer17").onclick = function(){
+			alert("мимо")
+			document.querySelector(".v7").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+		document.querySelector(".answer18").onclick = function(){
+			alert("нопе")
+			document.querySelector(".v7").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+		//7
+		document.querySelector(".answer19").onclick = function(){
+			alert("я че такой старый?")
+			document.querySelector(".v8").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+		document.querySelector(".answer20").onclick = function(){
+			alert("NOOOPE")
+			document.querySelector(".v8").style.display = "block"
+			document.querySelector(".v1").style.display = "none"
+		};
+		document.querySelector(".answer21").onclick = function(){
+			alert("Ты прошел мой тест, молодец, ты гений!")
+			document.querySelector(".v9").style.display = "block"
+			document.querySelector(".v8").style.display = "none"
+		};
+		//конец фильма пока ура наконесто
+		document.querySelector(".answer22").onclick = function(){
+			alert("Готовься!")
+			document.querySelector(".v1").style.display = "block"
+			document.querySelector(".v9").style.display = "none"
+		};
+
+
+	</script>
+</body>
+</html>
